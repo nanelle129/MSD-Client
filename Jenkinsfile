@@ -2,7 +2,7 @@
 node {
     
     stage ("Checkout React Client"){
-        git branch: 'main', url: 'https://github.com/nanelle129/MSD-Client.git'
+        git branch: 'master', url: 'https://github.com/nanelle129/MSD-Client.git'
     }
     
     stage ("Install dependencies - react client") {
